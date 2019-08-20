@@ -1,0 +1,42 @@
+            .card {
+                /* Add shadows to create the "card" effect */
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+            }
+            /* On mouse-over, add a deeper shadow */
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+            /* Add some padding inside the card container */
+            .container {
+                padding: 2px 16px;
+            }
+            
+            .topnav{
+                background-color: #333;
+                overflow: hidden;
+            }
+            .topnav a {                
+                float: left;               
+                color: white;               text-align: center;             padding: 14px 16px;  
+                text-decoration: none;  
+                font-size: 17px;
+            }
+            .topnav a.active{
+                background-color: chartreuse;
+                color:darkblue;
+            }
+            h1{
+                font-family:fantasy;
+            }
+            h1:hover {
+                color:blue;
+                font-size:50px;
+            }
+            .makered{
+                color: chartreuse;
+                font-size: 30px;
+            }
+            H2:{
+                color:cyan;
+            }
